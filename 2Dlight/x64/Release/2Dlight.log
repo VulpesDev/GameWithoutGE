@@ -1,0 +1,24 @@
+﻿  Bob.cpp
+f:\projectshobby\2d_actualgame\2dlight\2dlight\bob.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+f:\projectshobby\2d_actualgame\2dlight\2dlight\bob.cpp(38): warning C4018: '>=': signed/unsigned mismatch
+  Brick.cpp
+  Main.cpp
+f:\projectshobby\2d_actualgame\2dlight\2dlight\main.cpp(101): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+f:\projectshobby\2d_actualgame\2dlight\2dlight\main.cpp(136): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+f:\projectshobby\2d_actualgame\2dlight\2dlight\main.cpp(175): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+  Map1.cpp
+  Player.cpp
+f:\projectshobby\2d_actualgame\2dlight\2dlight\player.cpp(32): warning C4018: '>=': signed/unsigned mismatch
+  SoundManager.cpp
+  Generating code
+  All 317 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  2Dlight.vcxproj -> F:\ProjectsHobby\2D_actualGame\2Dlight\x64\Release\2Dlight.exe
