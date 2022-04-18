@@ -1,0 +1,47 @@
+Game engine…. GAME EEEEENGIIINE(like sheesh).
+What is a game engine?
+A game engine is a software framework primarily designed for the development of video games, and genially includes relevant libraries and support programs.
+PHA! Sounds like something your grandma would use! So I’m gonna make a game without this nonsense. Imma make an engineless game. But how is a game going to run without a game engine?(squeaque voice) Well Im going to make it using the SFML library and C++ of course. “But you haven’t used C++ until now”. Hah… like that would be a problem.
+First. SFML
+I had to learn how to use it, and I needed to get used writing code with c++ as well. I decided to start with the small stuff.
+In the end SFML was fairly simple:
+Make sprite.
+Give texture.
+Set position.
+Draw sprite.
+Then change stuff every frame.
+Cool.
+I noticed this game jam on itch, Black And White game jam which timing was ideal.
+Theme was “Loop”.
+I started doing stuff without having a plan.
+The only things I had planned were that the game was going to be black and white and there would be a player. So I started with the player.
+I didn’t really know how the player would look like, and I didn’t use a reference, because as they once said to me in Brazil. “Oi, reference users equals losers”
+I just let my hand free and settled with one of my first tries, which turned out… not bad (sweet). Then I made some animations.
+Of course not everything went as smooth as butter, but development was going well… for now(stop music)
+It was time to make some bricks.
+Im not too happy with how the code for spawning them works.
+Let’s say that’s the screen.
+I make 4 arrays of bricks
+And place them on each side of the screen.
+I wish I made all bricks into 1 array or at least an array of arrays. The reason being that whenever I want to do something with the bricks I have to access all arrays individually which just takes a lot of time.
+
+Meet Bob.
+He can say Hey!
+I really wanted to achieve this effect of typing text animation, which undertale has: (show effect)
+But that would mean that I’d have to use multi-threading, which I wasn’t sure exactly how with c++. (show discord) It took me 2 days… TWO DAYS… 
+
+BUT WAIT! (reverse sound effect)
+I don’t really have an idea for what the game is going to be!
+I couldn’t think of anything, so I asked my little brother.
+So the purpose of the game is to leave the room, and when you do, you’d end up in the same room, cus loop… . Then when you get to your 3rd or 4th loop, the room is going to flip upside-down. Then the whole game just loops. My brother had thought of lots of more stuff, but time was tight.
+For the going out of the room, I was thinking for some kind of door, but again… time – tight. So in the end I just made a Boolean, and if it’s true, 2 of the bricks don’t render. And it’s all random. 
+Now… the rotating was pretty easy, considering that the RendererWindow of SFML has this “view” option that works similarly as a camera looking at a plane.
+Then I just rotate the view and… weee..
+ 
+Music
+For the music I use DefleMask. It’s still one of my first times making music so don’t judge.
+This was my first try at making a music loop (play music), which I recognized as trash.
+Then I made “Once A Hero”, which turned out a lot better.
+However it didn’t quite fit the game I was making
+So I tried again making “Meet Bob” which fit the game perfectly if you ask me, also I had like 6 hours until deadline.
+So that’s how the game looks like in the end.
